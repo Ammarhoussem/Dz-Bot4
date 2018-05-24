@@ -143,7 +143,7 @@ Beta  1.00
 
 
 
-لتفعيل خاصية الترحيب قم بعمل روم اسمها "welcom"
+لتفعيل خاصية الترحيب قم بعمل قناة اسمها "welcom"
 
 ================================================
 
@@ -222,9 +222,10 @@ ${member}
 
 بامكانك دعوة البوت من هنا
 
-https://discordapp.com/oauth2/authorize?client_id=448084941415251979&scope=bot&permissions=2146958591
+https://discordapp.com/oauth2/authorize?client_id=388700863893602304&scope=bot&permissions=0
 
-Server Support : https://discord.gg/88cUQaK
+Server Support : https://discord.gg/twdHNJT
+`);
 
 message.channel.send('**تم الارسال في الخاص**');
 
@@ -593,34 +594,6 @@ client.on('message', message => {
   })
 }
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
