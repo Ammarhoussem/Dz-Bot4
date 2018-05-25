@@ -639,7 +639,8 @@ client.on('message', message => {
 
 
 
-
+const Discord = require('discord.js');
+const { Client, Util } = require('discord.js');
 const client = new Discord.Client();
 const { PREFIX, GOOGLE_API_KEY } = require('./config');
 const YouTube = require('simple-youtube-api');
