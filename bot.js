@@ -586,9 +586,21 @@ client.on('message', message => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 bot.on("guildMemberAdd", member => {
-      const welcomer = bot.channels.get("448179676989358083");
-      //*let welcomer = member.guild.channels.find("name","welcome");
+      let welcomer = member.guild.channels.find("name","welcome");
       if(!welcomer) return;
       if(welcomer) {
          moment.locale('ar-ly');
@@ -671,33 +683,6 @@ bot.on("guildMemberAdd", member => {
       
       }
       });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
